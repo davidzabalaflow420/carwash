@@ -1,0 +1,44 @@
+{
+    "stations": [
+        {
+            "name": "Enjuague",
+            "base_time": 4,
+            "is_optional": false
+        },
+        {
+            "name": "Enjabonado",
+            "base_time": 5,
+            "is_optional": false
+        },
+        {
+            "name": "Prelavado",
+            "base_time": 3,
+            "is_optional": true
+        }
+    ],
+    "cars": [
+        [
+            "estandar",
+            "PTI018",
+            false,
+            []
+        ],
+        [
+            "estandar",
+            "ULN203",
+            true,
+            [
+                "Prelavado"
+            ]
+        ],
+        [
+            "suv",
+            "XJH256",
+            true,
+            [
+                "Prelavado"
+            ]
+        ]
+    ],
+    "deleted_stations": []
+}
